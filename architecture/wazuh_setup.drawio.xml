@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.1">
+  <diagram name="Page-1" id="yB0eM9H4UoeRUC4EQ_ha">
+    <mxGraphModel dx="1426" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u8PHGAPqPsRqa24NAJ4_-17" edge="1" parent="1" source="u8PHGAPqPsRqa24NAJ4_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u8PHGAPqPsRqa24NAJ4_-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8PHGAPqPsRqa24NAJ4_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Main Machine" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u8PHGAPqPsRqa24NAJ4_-19" edge="1" parent="1" source="u8PHGAPqPsRqa24NAJ4_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" target="u8PHGAPqPsRqa24NAJ4_-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8PHGAPqPsRqa24NAJ4_-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Possible Attacker" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="u8PHGAPqPsRqa24NAJ4_-18" edge="1" parent="1" source="u8PHGAPqPsRqa24NAJ4_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u8PHGAPqPsRqa24NAJ4_-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8PHGAPqPsRqa24NAJ4_-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Wazuh Server / VMware / Ubuntu" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="u8PHGAPqPsRqa24NAJ4_-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Wazuh Agent / Vmware / Ubuntu" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
