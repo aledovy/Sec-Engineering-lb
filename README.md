@@ -58,7 +58,19 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
     - Ubuntu 22.04 LTS  
     - Install Wazuh Agent  
     - Register agent with Manager  
-    - Test agent-manager communication  
+    - Test agent-manager communication 
+ 
+```bash
+wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.14.1-1_amd64.deb && sudo WAZUH_MANAGER='192.169.1.8' WAZUH_AGENT_NAME='name_1' dpkg -i ./wazuh-agent_4.14.1-1_amd64.deb
+```
+
+Start agent
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable wazuh-agent
+sudo systemctl start wazuh-agent
+```
 
 3. **Optional Docker Version**
     - See `setup/docker-setup.md` for containerized deployment  
