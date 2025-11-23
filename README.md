@@ -51,6 +51,7 @@ Run the following command on the Wazuh Server VM:
 
 ```bash
 curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+```
 
 
 2. **VM2 (Wazuh Agent)**
