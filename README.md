@@ -44,6 +44,14 @@ The goal is to showcase skills in:
     - Configure firewall and ports (default: 1514, 1515, 5601)  
     - Start services and verify connectivity  
 
+#### 📌 Quickstart Installation (Manager + Indexer + Dashboard)
+
+Wazuh provides an automated installer that deploys all components in one step.  
+Run the following command on the Wazuh Server VM:
+
+```bash
+curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+
 2. **VM2 (Wazuh Agent)**
     - Ubuntu 22.04 LTS  
     - Install Wazuh Agent  
