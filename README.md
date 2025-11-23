@@ -13,11 +13,11 @@ I have included steps for VM setup and also for Docker setup one mimicing more p
   - Ubuntu Server 22.04 Image
   - Kali Linux(Attacker Machine) OVA image
 
-Tools Used:
-Wazuh
-VMware
-Linux Ubuntu VM
-Docker
+- **Tools Used**:
+  - Wazuh
+  - VMware
+  - Linux Ubuntu VM
+  - Docker
 
 Architecture overview
 How to reproduce your environment
